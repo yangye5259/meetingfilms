@@ -6,7 +6,7 @@
         <groupId>com.yangye.meetingfilms</groupId>
         <artifactId>backend-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>backend-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -16,6 +16,10 @@
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.yangye.meetingfilms</groupId>
+            <artifactId>backend-utils</artifactId>
+        </dependency>
         <!-- mybatis-plus依赖 -->
         <dependency>
             <groupId>com.baomidou</groupId>
