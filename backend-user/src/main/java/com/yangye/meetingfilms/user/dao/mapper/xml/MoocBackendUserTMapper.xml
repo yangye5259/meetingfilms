@@ -4,9 +4,15 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.yangye.meetingfilms.user.dao.mapper.entity.MoocBackendUserT">
-        <id column="UUID" property="uuid" />
-        <result column="user_name" property="userName" />
-        <result column="user_pwd" property="userPwd" />
-        <result column="user_phone" property="userPhone" />
+        <id column="UUID" property="uuid"/>
+        <result column="user_name" property="userName"/>
+        <result column="user_pwd" property="userPwd"/>
+        <result column="user_phone" property="userPhone"/>
     </resultMap>
+    <select id="getByUserName"
+            resultType="com.yangye.meetingfilms.user.dao.mapper.entity.MoocBackendUserT">
+        select *
+        from mooc_backend_user_t
+        where `user_name` = #{username};
+    </select>
 </mapper>
