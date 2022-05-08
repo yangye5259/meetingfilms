@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/backend-common/pom.xml" />
         <option value="$PROJECT_DIR$/backend-utils/pom.xml" />
         <option value="$PROJECT_DIR$/backend-user/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-eureka-server/pom.xml" />
       </list>
     </option>
   </component>

@@ -30,6 +30,7 @@
         <module>backend-common</module>
         <module>backend-utils</module>
         <module>backend-user</module>
+        <module>backend-eureka-server</module>
     </modules>
     <dependencies>
         <dependency>
@@ -84,6 +85,7 @@
                 <artifactId>backend-utils</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <!--            spring cloud 统一版本配置-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -91,6 +93,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>

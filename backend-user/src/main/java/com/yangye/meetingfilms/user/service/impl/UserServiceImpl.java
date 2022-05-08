@@ -4,7 +4,6 @@ import com.yangye.meetingfilms.user.dao.mapper.MoocBackendUserTMapper;
 import com.yangye.meetingfilms.user.dao.mapper.entity.MoocBackendUserT;
 import com.yangye.meetingfilms.user.service.UserService;
 import com.yangye.meetingfilms.utils.exception.CommonServiceException;
-import com.yangye.meetingfilms.utils.util.JwtTokenUtil;
 import com.yangye.meetingfilms.utils.util.MD5Util;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
