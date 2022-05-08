@@ -24,7 +24,7 @@ public class UserController {
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public BaseResponseVO<Object> login(@RequestBody LoginRequest loginRequest) {
         if (Objects.isNull(loginRequest)) {
-            throw new CommonServiceException("request is null");
+            throw new CommonServiceException("request is null", 400);
         }
         loginRequest.checkParam();
         Map<String, String> map = Maps.newHashMap();

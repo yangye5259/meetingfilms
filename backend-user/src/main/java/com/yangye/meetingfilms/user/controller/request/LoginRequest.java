@@ -1,5 +1,6 @@
 package com.yangye.meetingfilms.user.controller.request;
 
+import com.yangye.meetingfilms.utils.exception.CommonServiceException;
 import com.yangye.meetingfilms.utils.vo.BaseRequest;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -21,7 +22,7 @@ public class LoginRequest extends BaseRequest {
     @Override
     public void checkParam() {
         if (StringUtils.isEmpty(username) || StringUtils.isEmpty(password)) {
-            throw new IllegalArgumentException("username or password is empty!");
+            throw new CommonServiceException("username or password is empty!", 400);
         }
     }
 }

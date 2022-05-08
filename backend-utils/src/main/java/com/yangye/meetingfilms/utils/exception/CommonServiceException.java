@@ -14,4 +14,6 @@ import lombok.EqualsAndHashCode;
 public class CommonServiceException extends RuntimeException {
 
     private String message;
+
+    private Integer code;
 }

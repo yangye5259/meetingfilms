@@ -1,5 +1,6 @@
 package com.yangye.meetingfilms.utils.vo;
 
+import com.yangye.meetingfilms.utils.exception.CommonServiceException;
 import lombok.Data;
 
 /**
@@ -55,16 +56,23 @@ public class BaseResponseVO<T> {
     }
 
 
-    public static BaseResponseVO<Void> fail() {
-        BaseResponseVO<Void> responseVO = new BaseResponseVO<>();
+    public static BaseResponseVO<Object> fail() {
+        BaseResponseVO<Object> responseVO = new BaseResponseVO<>();
         responseVO.setCode(500);
         return responseVO;
     }
 
-    public static BaseResponseVO<Void> fail(String message) {
-        BaseResponseVO<Void> responseVO = new BaseResponseVO<>();
+    public static BaseResponseVO<Object> fail(String message) {
+        BaseResponseVO<Object> responseVO = new BaseResponseVO<>();
         responseVO.setCode(500);
         responseVO.setMessage(message);
+        return responseVO;
+    }
+
+    public static BaseResponseVO<Object> withException(CommonServiceException e) {
+        BaseResponseVO<Object> responseVO = new BaseResponseVO<>();
+        responseVO.setCode(e.getCode());
+        responseVO.setMessage(e.getMessage());
         return responseVO;
     }
 }
