@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="backend-common" />
         <module name="backend-user" />
+        <module name="backend-show-consumer" />
+        <module name="backend-show-provider" />
         <module name="backend-utils" />
         <module name="backend-eureka-server" />
       </profile>
@@ -16,6 +18,9 @@
     <bytecodeTargetLevel>
       <module name="backend-common" target="1.8" />
       <module name="backend-eureka-server" target="1.8" />
+      <module name="backend-show" target="1.8" />
+      <module name="backend-show-consumer" target="1.8" />
+      <module name="backend-show-provider" target="1.8" />
       <module name="backend-user" target="1.8" />
       <module name="backend-utils" target="1.8" />
       <module name="meetingfilms" target="1.8" />
@@ -25,6 +30,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="backend-common" options="-parameters" />
       <module name="backend-eureka-server" options="-parameters" />
+      <module name="backend-show" options="-parameters" />
+      <module name="backend-show-consumer" options="-parameters" />
+      <module name="backend-show-provider" options="-parameters" />
       <module name="backend-user" options="-parameters" />
       <module name="backend-utils" options="-parameters" />
       <module name="meetingfilms" options="-parameters" />
