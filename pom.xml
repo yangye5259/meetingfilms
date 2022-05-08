@@ -22,6 +22,9 @@
         <mysql.version>8.0.17</mysql.version>
         <beetl.version>2.9.10</beetl.version>
         <log4j.version>1.2.17</log4j.version>
+        <guava.version>31.1-jre</guava.version>
+        <fastjson.version>2.0.2</fastjson.version>
+        <jwt.version>0.9.1</jwt.version>
     </properties>
     <modules>
         <module>backend-common</module>
@@ -33,13 +36,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>31.1-jre</version>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -61,6 +57,23 @@
     </dependencies>
     <dependencyManagement>
         <dependencies>
+            <!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.yangye.meetingfilms</groupId>
                 <artifactId>backend-common</artifactId>

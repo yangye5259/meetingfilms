@@ -11,5 +11,5 @@ public interface UserService {
      * @param username 用户名
      * @param password 密码
      */
-    void checkUserLogin(String username, String password);
+    String checkUserLogin(String username, String password);
 }

@@ -4,6 +4,7 @@ import com.google.common.collect.Maps;
 import com.yangye.meetingfilms.user.controller.request.LoginRequest;
 import com.yangye.meetingfilms.user.service.UserService;
 import com.yangye.meetingfilms.utils.exception.CommonServiceException;
+import com.yangye.meetingfilms.utils.util.JwtTokenUtil;
 import com.yangye.meetingfilms.utils.vo.BaseResponseVO;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -32,10 +33,12 @@ public class UserController {
             throw new CommonServiceException("request is null", 400);
         }
         loginRequest.checkParam();
-        userService.checkUserLogin(loginRequest.getUsername(), loginRequest.getPassword());
+        String s = userService.checkUserLogin(loginRequest.getUsername(), loginRequest.getPassword());
+        String randomKey = JwtTokenUtil.getRandomKey();
+        String token = JwtTokenUtil.generateToken(s, randomKey);
         Map<String, String> map = Maps.newHashMap();
-        map.put("randomKey", "a");
-        map.put("token", "a");
+        map.put("randomKey", randomKey);
+        map.put("token", token);
         return BaseResponseVO.success(map);
     }
 }
