@@ -36,24 +36,24 @@ public class EntityGenerator {
 
     static{
         tableNames = new String[]{
-                "mooc_area_dict_t",
-                "mooc_backend_user_t",
-                "mooc_banner_t",
-                "mooc_brand_dict_t",
-                "mooc_cat_dict_t",
-                "mooc_cinema_t",
-                "mooc_field_t",
-                "mooc_film_actor_t",
-                "mooc_film_info_t",
-                "mooc_film_t",
-                "mooc_hall_dict_t",
-                "mooc_hall_film_info",
-                "mooc_order_2017_t",
-                "mooc_order_2018_t",
-                "mooc_order_t",
-                "mooc_source_dict_t",
-                "mooc_user_t",
-                "mooc_year_dict_t"
+//                "mooc_area_dict_t",
+//                "mooc_backend_user_t",
+//                "mooc_banner_t",
+//                "mooc_brand_dict_t",
+//                "mooc_cat_dict_t",
+//                "mooc_cinema_t",
+//                "mooc_field_t",
+//                "mooc_film_actor_t",
+//                "mooc_film_info_t",
+//                "mooc_film_t",
+//                "mooc_hall_dict_t",
+//                "mooc_hall_film_info_t",
+//                "mooc_order_2017_t",
+//                "mooc_order_2018_t",
+//                "mooc_order_t",
+//                "mooc_source_dict_t",
+//                "mooc_user_t",
+//                "mooc_year_dict_t"
         };
     }
 

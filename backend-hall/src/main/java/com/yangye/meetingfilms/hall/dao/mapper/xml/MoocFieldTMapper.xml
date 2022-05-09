@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yangye.meetingfilms.common.mapper.MoocFieldTMapper">
+<mapper namespace="com.yangye.meetingfilms.hall.dao.mapper.MoocFieldTMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.yangye.meetingfilms.common.entity.MoocFieldT">
+    <resultMap id="BaseResultMap" type="com.yangye.meetingfilms.hall.dao.entity.MoocFieldT">
         <id column="UUID" property="uuid" />
         <result column="cinema_id" property="cinemaId" />
         <result column="film_id" property="filmId" />

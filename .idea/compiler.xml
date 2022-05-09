@@ -13,12 +13,16 @@
         <module name="backend-eureka-server" />
         <module name="backend-show-consumer" />
         <module name="backend-show-provider" />
+        <module name="backend-cinema" />
+        <module name="backend-hall" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="backend-cinema" target="1.8" />
       <module name="backend-common" target="1.8" />
       <module name="backend-eureka-server" target="1.8" />
       <module name="backend-film" target="1.8" />
+      <module name="backend-hall" target="1.8" />
       <module name="backend-show" target="1.8" />
       <module name="backend-show-consumer" target="1.8" />
       <module name="backend-show-provider" target="1.8" />
@@ -29,9 +33,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="backend-cinema" options="-parameters" />
       <module name="backend-common" options="-parameters" />
       <module name="backend-eureka-server" options="-parameters" />
       <module name="backend-film" options="-parameters" />
+      <module name="backend-hall" options="-parameters" />
       <module name="backend-show" options="-parameters" />
       <module name="backend-show-consumer" options="-parameters" />
       <module name="backend-show-provider" options="-parameters" />

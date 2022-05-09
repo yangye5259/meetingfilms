@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/backend-cinema/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend-common/src/main/java/com/yangye/meetingfilms/common/util/JwtTokenUtil.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend-eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend-film/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend-hall/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend-show/backend-show-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend-show/backend-show-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend-show/src/main/java" charset="UTF-8" />

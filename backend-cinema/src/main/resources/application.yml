@@ -1,0 +1,28 @@
+logging:
+  config: classpath:logback.xml
+
+server:
+  port: 7002
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
+spring:
+  application:
+    name: backend-cinema
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/cloudstudy?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=UTC
+    filters: log4j,wall,mergeStat
+    druid:
+      password: 095261
+      username: root
+
+mybatis-plus:
+  mapper-locations: classpath*:com/yangye/meetingfilms/**/xml/*Mapper.xml
+  global-config:
+    id-type: 0
+    db-column-underline: false
+    refresh-mapper: tru

@@ -1,6 +1,6 @@
-package com.yangye.meetingfilms.common.mapper;
+package com.yangye.meetingfilms.hall.dao.mapper;
 
-import com.yangye.meetingfilms.common.entity.MoocHallDictT;
+import com.yangye.meetingfilms.hall.dao.entity.MoocHallDictT;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

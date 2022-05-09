@@ -22,6 +22,12 @@ public class CommonUtil {
         basePageVO.checkParam();
     }
 
+    public static <T> void checkNotNull(T t) {
+        if (Objects.isNull(t)) {
+            throw new CommonServiceException("参数不能为空", 500);
+        }
+    }
+
 
     public static <T> Map<String, Object> pageResultAssemble(String title, IPage<T> page) {
         if (Objects.isNull(page)) {
