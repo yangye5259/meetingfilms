@@ -1,4 +1,4 @@
-package com.yangye.meetingfilms.user.dao.mapper.entity;
+package com.yangye.meetingfilms.film.dao.entity;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 import java.io.Serializable;
 /**
  * <p>
- * 后台用户表
+ * 演员表
  * </p>
  *
  * @author yangye
@@ -16,7 +16,7 @@ import java.io.Serializable;
  */
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class MoocBackendUserT extends Model<MoocBackendUserT> {
+public class MoocActorT extends Model<MoocActorT> {
 
     private static final long serialVersionUID = 1L;
 
@@ -27,19 +27,14 @@ public class MoocBackendUserT extends Model<MoocBackendUserT> {
     private Integer uuid;
 
     /**
-     * 用户账号
+     * 演员名称
      */
-    private String userName;
+    private String actorName;
 
     /**
-     * 用户密码
+     * 演员图片位置
      */
-    private String userPwd;
-
-    /**
-     * 用户手机号
-     */
-    private String userPhone;
+    private String actorImg;
 
     @Override
     protected Serializable pkVal() {

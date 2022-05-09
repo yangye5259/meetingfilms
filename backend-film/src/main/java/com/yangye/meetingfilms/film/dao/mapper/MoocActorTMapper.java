@@ -1,7 +1,7 @@
-package com.yangye.meetingfilms.common.mapper;
+package com.yangye.meetingfilms.film.dao.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.yangye.meetingfilms.common.entity.MoocActorT;
+import com.yangye.meetingfilms.film.dao.entity.MoocActorT;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

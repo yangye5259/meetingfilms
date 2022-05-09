@@ -1,7 +1,7 @@
 package com.yangye.meetingfilms.user.service.impl;
 
 import com.yangye.meetingfilms.user.dao.mapper.MoocBackendUserTMapper;
-import com.yangye.meetingfilms.user.dao.mapper.entity.MoocBackendUserT;
+import com.yangye.meetingfilms.user.dao.entity.MoocBackendUserT;
 import com.yangye.meetingfilms.user.service.UserService;
 import com.yangye.meetingfilms.utils.exception.CommonServiceException;
 import com.yangye.meetingfilms.utils.util.MD5Util;

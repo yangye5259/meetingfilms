@@ -8,10 +8,10 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>backend-user</artifactId>
+    <artifactId>backend-film</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>backend-user</name>
-    <description>backend-user</description>
+    <name>backend-film</name>
+    <description>backend-film</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -20,7 +20,10 @@
             <groupId>com.yangye.meetingfilms</groupId>
             <artifactId>backend-common</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -28,7 +31,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.6.7</version>
             </plugin>
         </plugins>
         <!-- 资源引入 -->

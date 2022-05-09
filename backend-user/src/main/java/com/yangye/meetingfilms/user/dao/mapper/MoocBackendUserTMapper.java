@@ -1,7 +1,7 @@
 package com.yangye.meetingfilms.user.dao.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.yangye.meetingfilms.user.dao.mapper.entity.MoocBackendUserT;
+import com.yangye.meetingfilms.user.dao.entity.MoocBackendUserT;
 import org.apache.ibatis.annotations.Param;
 
 /**

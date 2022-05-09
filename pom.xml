@@ -32,6 +32,7 @@
         <module>backend-user</module>
         <module>backend-eureka-server</module>
         <module>backend-show</module>
+        <module>backend-film</module>
     </modules>
     <dependencies>
         <dependency>

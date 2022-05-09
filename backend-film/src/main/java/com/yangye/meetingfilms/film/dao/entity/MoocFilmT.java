@@ -1,4 +1,4 @@
-package com.yangye.meetingfilms.common.entity;
+package com.yangye.meetingfilms.film.dao.entity;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;

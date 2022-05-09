@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/backend-show/pom.xml" />
         <option value="$PROJECT_DIR$/backend-show/backend-show-provider/pom.xml" />
         <option value="$PROJECT_DIR$/backend-show/backend-show-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-film/pom.xml" />
       </list>
     </option>
   </component>

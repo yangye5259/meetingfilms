@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/backend-common/backend-common.iml" filepath="$PROJECT_DIR$/backend-common/backend-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend-eureka-server/backend-eureka-server.iml" filepath="$PROJECT_DIR$/backend-eureka-server/backend-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-film/backend-film.iml" filepath="$PROJECT_DIR$/backend-film/backend-film.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend-show/backend-show.iml" filepath="$PROJECT_DIR$/backend-show/backend-show.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend-show/backend-show-consumer/backend-show-consumer.iml" filepath="$PROJECT_DIR$/backend-show/backend-show-consumer/backend-show-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend-show/backend-show-provider/backend-show-provider.iml" filepath="$PROJECT_DIR$/backend-show/backend-show-provider/backend-show-provider.iml" />
