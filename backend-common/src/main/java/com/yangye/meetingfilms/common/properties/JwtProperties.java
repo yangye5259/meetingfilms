@@ -1,4 +1,4 @@
-package com.yangye.meetingfilms.utils.properties;
+package com.yangye.meetingfilms.common.properties;
 
 import lombok.Data;
 

@@ -3,8 +3,8 @@ package com.yangye.meetingfilms.user.service.impl;
 import com.yangye.meetingfilms.user.dao.mapper.MoocBackendUserTMapper;
 import com.yangye.meetingfilms.user.dao.entity.MoocBackendUserT;
 import com.yangye.meetingfilms.user.service.UserService;
-import com.yangye.meetingfilms.utils.exception.CommonServiceException;
-import com.yangye.meetingfilms.utils.util.MD5Util;
+import com.yangye.meetingfilms.common.exception.CommonServiceException;
+import com.yangye.meetingfilms.common.util.MD5Util;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 

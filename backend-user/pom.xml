@@ -20,7 +20,10 @@
             <groupId>com.yangye.meetingfilms</groupId>
             <artifactId>backend-common</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

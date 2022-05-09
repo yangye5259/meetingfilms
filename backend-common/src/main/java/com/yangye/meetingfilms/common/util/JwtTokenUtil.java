@@ -1,6 +1,6 @@
-package com.yangye.meetingfilms.utils.util;
+package com.yangye.meetingfilms.common.util;
 
-import com.yangye.meetingfilms.utils.properties.JwtProperties;
+import com.yangye.meetingfilms.common.properties.JwtProperties;
 import io.jsonwebtoken.*;
 
 import java.util.Date;

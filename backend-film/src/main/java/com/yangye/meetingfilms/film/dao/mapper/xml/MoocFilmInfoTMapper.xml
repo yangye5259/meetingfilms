@@ -4,14 +4,20 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.yangye.meetingfilms.film.dao.entity.MoocFilmInfoT">
-        <id column="UUID" property="uuid" />
-        <result column="film_id" property="filmId" />
-        <result column="film_en_name" property="filmEnName" />
-        <result column="film_score" property="filmScore" />
-        <result column="film_score_num" property="filmScoreNum" />
-        <result column="film_length" property="filmLength" />
-        <result column="biography" property="biography" />
-        <result column="director_id" property="directorId" />
-        <result column="film_imgs" property="filmImgs" />
+        <id column="UUID" property="uuid"/>
+        <result column="film_id" property="filmId"/>
+        <result column="film_en_name" property="filmEnName"/>
+        <result column="film_score" property="filmScore"/>
+        <result column="film_score_num" property="filmScoreNum"/>
+        <result column="film_length" property="filmLength"/>
+        <result column="biography" property="biography"/>
+        <result column="director_id" property="directorId"/>
+        <result column="film_imgs" property="filmImgs"/>
     </resultMap>
+    <select id="selectByFilmIdMoocFilmInfoT"
+            resultType="com.yangye.meetingfilms.film.dao.entity.MoocFilmInfoT">
+        select *
+        from mooc_film_info_t
+        where `film_id` = #{filmId} limit 1
+    </select>
 </mapper>

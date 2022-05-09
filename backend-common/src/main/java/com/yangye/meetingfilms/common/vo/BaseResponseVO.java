@@ -1,6 +1,6 @@
-package com.yangye.meetingfilms.utils.vo;
+package com.yangye.meetingfilms.common.vo;
 
-import com.yangye.meetingfilms.utils.exception.CommonServiceException;
+import com.yangye.meetingfilms.common.exception.CommonServiceException;
 import lombok.Data;
 
 /**

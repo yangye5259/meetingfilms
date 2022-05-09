@@ -1,7 +1,7 @@
 package com.yangye.meetingfilms.user.controller.request;
 
-import com.yangye.meetingfilms.utils.exception.CommonServiceException;
-import com.yangye.meetingfilms.utils.vo.BaseRequest;
+import com.yangye.meetingfilms.common.exception.CommonServiceException;
+import com.yangye.meetingfilms.common.vo.BaseRequest;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.apache.commons.lang3.StringUtils;

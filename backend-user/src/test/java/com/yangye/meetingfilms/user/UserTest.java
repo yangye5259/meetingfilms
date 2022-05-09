@@ -2,7 +2,7 @@ package com.yangye.meetingfilms.user;
 
 import com.yangye.meetingfilms.user.dao.mapper.MoocBackendUserTMapper;
 import com.yangye.meetingfilms.user.dao.entity.MoocBackendUserT;
-import com.yangye.meetingfilms.utils.util.MD5Util;
+import com.yangye.meetingfilms.common.util.MD5Util;
 import org.junit.jupiter.api.Test;
 
 import javax.annotation.Resource;

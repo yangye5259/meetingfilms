@@ -1,4 +1,4 @@
-package com.yangye.meetingfilms.utils.exception;
+package com.yangye.meetingfilms.common.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

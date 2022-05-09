@@ -1,13 +1,15 @@
 package com.yangye.meetingfilms.film.dao.entity;
+
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.extension.activerecord.Model;
-import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
+import java.util.Date;
+
 /**
  * <p>
  * 影片主表
@@ -82,7 +84,7 @@ public class MoocFilmT extends Model<MoocFilmT> {
     /**
      * 影片上映时间
      */
-    private LocalDateTime filmTime;
+    private Date filmTime;
 
     /**
      * 影片状态,1-正在热映，2-即将上映，3-经典影片

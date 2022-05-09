@@ -1,6 +1,6 @@
-package com.yangye.meetingfilms.utils.exception;
+package com.yangye.meetingfilms.common.exception;
 
-import com.yangye.meetingfilms.utils.vo.BaseResponseVO;
+import com.yangye.meetingfilms.common.vo.BaseResponseVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

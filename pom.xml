@@ -28,7 +28,6 @@
     </properties>
     <modules>
         <module>backend-common</module>
-        <module>backend-utils</module>
         <module>backend-user</module>
         <module>backend-eureka-server</module>
         <module>backend-show</module>

@@ -22,4 +22,8 @@
             </if>
         </where>
     </select>
+    <select id="selectPageActors" resultType="com.yangye.meetingfilms.film.controller.vo.FilmActorVO">
+        select `UUID` as actorId, actor_name as actorName
+        from mooc_actor_t
+    </select>
 </mapper>

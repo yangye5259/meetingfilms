@@ -1,4 +1,4 @@
-package com.yangye.meetingfilms.utils.util;
+package com.yangye.meetingfilms.common.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

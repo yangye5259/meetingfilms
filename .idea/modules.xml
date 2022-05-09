@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/backend-show/backend-show-consumer/backend-show-consumer.iml" filepath="$PROJECT_DIR$/backend-show/backend-show-consumer/backend-show-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend-show/backend-show-provider/backend-show-provider.iml" filepath="$PROJECT_DIR$/backend-show/backend-show-provider/backend-show-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend-user/backend-user.iml" filepath="$PROJECT_DIR$/backend-user/backend-user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/backend-utils/backend-utils.iml" filepath="$PROJECT_DIR$/backend-utils/backend-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/meetingfilms.iml" filepath="$PROJECT_DIR$/meetingfilms.iml" />
     </modules>
   </component>

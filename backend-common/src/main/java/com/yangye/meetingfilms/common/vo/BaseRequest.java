@@ -1,4 +1,4 @@
-package com.yangye.meetingfilms.utils.vo;
+package com.yangye.meetingfilms.common.vo;
 
 /**
  * @Author: yangye

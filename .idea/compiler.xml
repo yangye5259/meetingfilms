@@ -10,7 +10,6 @@
         <module name="backend-common" />
         <module name="backend-user" />
         <module name="backend-film" />
-        <module name="backend-utils" />
         <module name="backend-eureka-server" />
         <module name="backend-show-consumer" />
         <module name="backend-show-provider" />

@@ -1,7 +1,10 @@
 package com.yangye.meetingfilms.film.dao.mapper;
 
-import com.yangye.meetingfilms.film.dao.entity.MoocFilmActorT;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.yangye.meetingfilms.film.dao.entity.MoocFilmActorT;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +16,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface MoocFilmActorTMapper extends BaseMapper<MoocFilmActorT> {
 
+    List<MoocFilmActorT> listRecordsByFilmId(@Param("filmId") String filmId);
 }

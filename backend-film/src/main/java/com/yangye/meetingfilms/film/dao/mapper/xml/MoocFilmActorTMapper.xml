@@ -4,9 +4,14 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.yangye.meetingfilms.film.dao.entity.MoocFilmActorT">
-        <id column="UUID" property="uuid" />
-        <result column="film_id" property="filmId" />
-        <result column="actor_id" property="actorId" />
-        <result column="role_name" property="roleName" />
+        <id column="UUID" property="uuid"/>
+        <result column="film_id" property="filmId"/>
+        <result column="actor_id" property="actorId"/>
+        <result column="role_name" property="roleName"/>
     </resultMap>
+    <select id="listRecordsByFilmId" resultType="com.yangye.meetingfilms.film.dao.entity.MoocFilmActorT">
+        select *
+        from mooc_film_actor_t
+        where `film_id` = #{filmId}
+    </select>
 </mapper>
